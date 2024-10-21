@@ -1,0 +1,90 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("https://img.freepik.com/fotos-premium/fotografia-primer-plano-chef-cocinando-fondo-borroso_951562-56776.jpg?w=900");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+body.sinimagen {
+	background-image: none;
+        background-color: #55a7a7; 
+	
+}
+
+header {
+	background-color: #566670;
+	padding: 25px;
+	text-align: center;
+}
+
+h1 {
+	color: #1297de;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+
+h2 {
+	color: #b3bc5b;
+}
+
+h3 {
+	color: #ff3300;
+}
+
+/* Estils per llistes */
+ul {
+	list-style-type: square;
+	margin: 10px 0;
+}
+
+ol {
+	list-style-type: decimal;
+	margin: 10px 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px 0;
+}
+
+/* Estils per enllaços */
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Estils per al footer */
+footer {
+	background-color: #333;
+	color: #5b5a95;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+a.enlace {
+
+       color: white;
+}
+
